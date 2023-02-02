@@ -9,7 +9,7 @@ body, html{
 }
 
 main{
-   
+ 
     width: 80vw;
     height: 100vh;
 
@@ -57,8 +57,10 @@ img{
 }
 
 h1{
-    max-width: 409px;
+    display: block;
     margin: auto;
+    max-width: 409px;
+   
     margin-bottom: 15px;
     text-align: center;
     color: white;
