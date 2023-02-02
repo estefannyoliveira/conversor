@@ -5,24 +5,22 @@ body, html{
     text-align: center;
     background-image: linear-gradient(to bottom, #014ba0, #408ee7);
     height: 100vh;
-  
+    position: relative;
 }
 
 main{
     display: block;
     margin: auto;
+    width: 80vw;
     height: 100vh;
-    position: relative;
-    
-}
-.conteudo{
-    display: block;
-    margin: auto;
+
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+        
 }
+
 header{
     text-align: center;
     padding: 20px;
@@ -60,6 +58,7 @@ img{
 }
 
 h1{
+    max-width: 409px;
     margin: auto;
     margin-bottom: 15px;
     text-align: center;
@@ -67,7 +66,7 @@ h1{
     background-color:#2196f3;
     padding: 4px;
     border-radius: 10px;
-    width: 420px;
+    
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     
